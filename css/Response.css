@@ -1,32 +1,49 @@
 /*for resposive website*/
 
 @media only screen and (max-width: 768px) {
-    .sticky{
+    body {
+        overflow-x: hidden;
+    }
+
+    .sticky {
         padding: 0% 5%;
     }
 }
 
 @media only screen and (max-width: 425px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .title-text {
         margin-left: 10%;
         width: 80%;
     }
-    .content1 .curcle{
+
+    .content1 .curcle {
         margin-left: 37%;
     }
-    .content1 .col-md-12 .title-border{
+
+    .content1 .col-md-12 .title-border {
         width: 6em !important;
     }
 }
+
 @media only screen and (max-width: 375px) {
-    .site-title h2{
+    body {
+        overflow-x: hidden;
+    }
+
+    .site-title h2 {
         font-size: 2.2em;
     }
+
     .site-title .title-text {
         margin-left: 0%;
         width: 100%;
     }
-    .btn-sub2{
+
+    .btn-sub2 {
         display: none;
     }
 }

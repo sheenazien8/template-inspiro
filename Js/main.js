@@ -237,5 +237,14 @@ $(document).ready(function () {
         $('html, body').animate({
             scrollTop : 0
         }, 1500);
+    });
+
+    /*nav animation*/
+    $(window).scroll(function () {
+        if ($(document).scrollTop() > 450){
+            $('nav').addClass('fixed-top').addClass('sticky');
+        }else {
+            $('nav').removeClass('fixed-top').removeClass('sticky');
+        }
     })
 });

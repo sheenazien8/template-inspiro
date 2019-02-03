@@ -351,3 +351,11 @@ footer span:hover {
 .top{
     cursor: pointer;
 }
+
+/*sticky*/
+
+.sticky{
+    background-color: #57B0AE;
+    color: white;
+    transition: all 500ms ease;
+}
